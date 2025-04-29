@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="stylesheet" href="../CSS/index.css">
 </head>
     <body>
         <header>
@@ -15,14 +16,62 @@
         <article>
             <!-- Conteúdo -->
 
+            <form action="#">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <label for="">Nome:</label>
+                    <input type="text">
 
-            <!-- Nome -->
+                    <label for="">Email:</label>
+                    <input type="email">
+
+                    <label for="">Idade</label>
+                    <input type="number">
+
+                    <label for="">Nascimento</label>
+                    <input type="date">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Saga Favorita</legend>
+                    <select name="sagas" id="">
+                        <option value="">Escolha</option>
+                        <option value="harryPotter">Harry Potter</option>
+                        <option value="senhorDosAnéis">Senhor dos Anéis</option>
+                        <option value="starWars">Star Wars</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Detalhes</legend>
+                    <label for="">É a saga favorita?</label>
+                    <input type="checkbox">
+
+                    <label for="">Todos os filmes são bons?</label>
+                    <input type="checkbox">
+
+                    <div id="opcaoProduto"></div>
+                </fieldset>
+                 
+                <fieldset id="motivo">
+                    <legend>Envio</legend>
+
+                    <label for="">Título</label>
+                    <input type="text">
+
+                    <label for="comentario">Por que escolheu?</label>
+                    <textarea></textarea>
+                    
+                    <label for="">Selecione um arquivo:</label>
+                    <input type="file">
+                    <button type="submit">Anexar</button>
+
+                    <button type="reset" onclick="verificaMotivo(null)">Limpar</button>
+                    <button type="submit">Enviar</button>
             
-            <!-- Email -->
-            
-            <!-- Idade -->
-            
-            <!-- Nascimento -->
+                </fieldset>
+            </form>
+
 
         <footer>
             <!-- Rodapé -->
