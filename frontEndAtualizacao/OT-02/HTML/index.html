@@ -11,14 +11,14 @@
         </header>
 
         <section>
-
+            <h1>Formulário sobre sagas</h1>
         </section>
         <article>
             <!-- Conteúdo -->
 
             <form action="#">
                 <fieldset>
-                    <legend>Formulário</legend>
+                    
                     <label for="">Nome:</label>
                     <input type="text">
 
@@ -42,18 +42,23 @@
                     </select>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="fielDetalhes">
                     <legend>Detalhes</legend>
-                    <label for="">É a saga favorita?</label>
-                    <input type="checkbox">
 
+                    <div class="detalhes">
+                    <label for="">É a saga favorita?</label>
+                    <input class="box" type="checkbox">
+                    </div>
+
+                    <div class="detalhes">
                     <label for="">Todos os filmes são bons?</label>
-                    <input type="checkbox">
+                    <input class="box" type="checkbox">
+                    </div>
 
                     <div id="opcaoProduto"></div>
                 </fieldset>
                  
-                <fieldset id="motivo">
+                <fieldset class="motivo">
                     <legend>Envio</legend>
 
                     <label for="">Título</label>
@@ -71,7 +76,7 @@
             
                 </fieldset>
             </form>
-
+        </article>
 
         <footer>
             <!-- Rodapé -->
