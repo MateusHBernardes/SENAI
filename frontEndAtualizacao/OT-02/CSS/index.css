@@ -58,6 +58,7 @@ label {
     padding-left: 0;
     padding-right: 0;
     margin: 0;
+    width: 100%;
     
 }
 
@@ -67,19 +68,25 @@ input {
 }
 
 .fielDetalhes {
-    display: table;
+    display: flex;
     align-items: flex-end;
+    width: 94%;
+}
+
+.box {
+    /* display: flex; */
+    /* align-items: flex-end; */
+    height: 30px;
 }
 
 .detalhes {
     display: flex;
-    padding: 0;
-    margin: 0;
-    /* width: 20%; */
-    /* align-items: center; */
-    margin-top: auto;
-    padding: 10px;
-    /* justify-content: space-between; */
+    width: 50%;
+    align-items: center;
+}
+
+textarea {
+    width: 80%;
 }
 
 .motivo {
