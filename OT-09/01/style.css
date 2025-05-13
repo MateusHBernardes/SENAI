@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 10px;
+  }
+
+  .box {
+    position: relative;
+    overflow: hidden;
+  }
+
+.box:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+
+  .image1x1 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .image1x2 {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+
+  .image2x1 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+  .image2x1 {
+    grid-column: span 2;
+  }
+
+  .image2x2 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .images,
+  .images img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .images img {
+    object-fit: cover;
+    display: block;
+  }
