@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+section {
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(60%, 1fr)); */
+  background-color: aqua;
+  height: 100vh;
+  /* width: 100%; */
+}
+
+.sidebar {
+  background-color: purple;
+  /* width: 30%; */
+}
+
+.area {
+  background-color: lightcoral;
+  width: 100%;
+}
+
+.container {
+  background-color:red;
+  width: 100%;
+}
