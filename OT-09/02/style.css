@@ -50,7 +50,10 @@ section {
   height: calc(100vh - 10%);
   width: 15%;
   overflow-y: auto;
+  
 }
+
+
 
 /* .sidebar a {
   color: white;
