@@ -5,15 +5,238 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     
     <header>
-
+        <h2>MANGA VINLAND</h2>
     </header>
 
-    <section>
+    <div class="filtro">
+        <!-- <button class="fButton">Filtro</button> -->
 
+        <div>
+            <select id="categoryFilter">
+              <option value="all">Todas as categorias</option>
+              <option value="Anime">Anime</option>
+              <option value="pAnime">Pós-Anime</option>
+            </select>
+          
+            <select id="sortOrder">
+              <option value="default">Ordenar por</option>
+              <option value="name-asc">Nome: A-Z</option>
+              <option value="name-desc">Nome: Z-A</option>
+            </select>
+          </div>
+          
+          <div id="productList"></div>
+    </div>
+    
+    <section id="productContainer">
+
+        
+        
+        <div class="card" name="Volume1" id="Anime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_p4uugvjt7p6e93tqi1hh3kkt7p/-S897-FWEBP" alt="IMG 1">
+            <div class="container">
+                <h2>MANGA 1</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 1</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="Anime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_00hqkvda6t4un9auaj5m7l0t34/-S897-FWEBP" alt="IMG 2">
+            <div class="container">
+                <h2>MANGA 2</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 2</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="Anime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_16adg1lu452kl1f60j9s5iq824/-S897-FWEBP" alt="IMG 3">
+            <div class="container">
+                <h2>MANGA 3</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 3</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="Anime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_umb9r93fld3u776ltfp0eqv33h/-S897-FWEBP" alt="IMG 4">
+            <div class="container">
+                <h2>MANGA 4</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 4</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="Anime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_fa6gb9ejg95cp0u7q3310sed34/-S897-FWEBP" alt="IMG 5">
+            <div class="container">
+                <h2>MANGA 5</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 5</p>
+                <p><button>Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="Anime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_g6lbkhs9jd3an6am4hvpjal02i/-S897-FWEBP" alt="IMG 6">
+            <div class="container">
+                <h2>MANGA 6</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 6</p>
+                <p><button>Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="Anime"> 
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_t1lrfe26556770jjfo8d55n726/-S897-FWEBP" alt="IMG 7">
+            <div class="container">
+                <h2>MANGA 7</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 7</p>
+                <p><button>Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_oc7fiffs1h6n5bpk4fsm51350k/-S897-FWEBP" alt="IMG 8">
+            <div class="container">
+                <h2>MANGA 8</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 8</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_d9r3vqlev91avdmkcj5nppam0s/-S897-FWEBP" alt="IMG 9">
+            <div class="container">
+                <h2>MANGA 9</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 9</p>
+                <p><button>Adicionar ao carrinho</button></p>
+            </div>
+        </div>
+
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_0bb93sepgh1mt6jh11nrkk1r4o/-S897-FWEBP" alt="IMG 11">
+            <div class="container">
+                <h2>MANGA 10</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 10</p>
+                <p><button>Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_1rj4b1jnmt3hl0cols2u6nr033/-S897-FWEBP" alt="IMG 12">
+            <div class="container">
+                <h2>MANGA 11</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 11</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_vrnjm8qqi93hd9tr6m22nc0f38/-S897-FWEBP" alt="IMG 13">
+            <div class="container">
+                <h2>MANGA 12</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 12</p>
+                <p><button>Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_fb6n4q3jml10hbada4m2k7pm04/-S897-FWEBP" alt="IMG 14">
+            <div class="container">
+                <h2>MANGA 13</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 13</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_fd55kassm512n8n8n6d25lfs08/-S897-FWEBP" alt="IMG 15">
+            <div class="container">
+                <h2>MANGA 14</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 14</p>
+                <p><button>Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_bj677jmaph3dl3pk0vi83ha673/-S897-FWEBP" alt="IMG 16">
+            <div class="container">
+                <h2>MANGA 15</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 15</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://m.media-amazon.com/images/I/61DhFmdIQVL._SY344_BO1,204,203,200_QL70_ML2_.jpg" alt="IMG 17">
+            <div class="container">
+                <h2>MANGA 16</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 16</p>
+                <p><button>Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_h16cdkgiap6jj9r71klo1k5s3e/-S897-FWEBP" alt="IMG 18">
+            <div class="container">
+                <h2>MANGA 17</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 17</p>
+                <p><button>Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_bi09q9g98p46pce70v82klv67s/-S897-FWEBP" alt="IMG 19">
+            <div class="container">
+                <h2>MANGA 18</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 18</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_36ig4qulft2a5bsmafo474ek4j/-S897-FWEBP" alt="IMG 20">
+            <div class="container">
+                <h2>MANGA 19</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 19</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_5ss9no7aq95qd87d09uuf9gv3c/-S897-FWEBP" alt="IMG 21">
+            <div class="container">
+                <h2>MANGA 20</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 20</p>
+                <p><button>Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_bvkf8r582t44r8p9ec54lcbd7f/-S897-FWEBP" alt="IMG 22">
+            <div class="container">
+                <h2>MANGA 21</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 21</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
+        <div class="card" id="pAnime">
+            <img src="https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_p3q5koi2kh52b736o2qbbeik2b/-S897-FWEBP" alt="IMG 23">
+            <div class="container">
+                <h2>MANGA 22</h2>
+                <p class="price">$19.99</p>
+                <p>Vinland Saga Vol. 22</p>
+                <p><button class="carrinho">Adicionar ao carrinho</button></p>        </div>
+        </div>
+        
     </section>
     
     <footer>

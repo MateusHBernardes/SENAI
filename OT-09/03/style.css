@@ -4,3 +4,74 @@ html, body {
     height: 100vh;
 }
 
+body {
+    background-color: #443a3a;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+header {
+    height: 10%;
+    background-color: #121212;
+    text-align: center;
+    padding: 1px;
+    justify-content: center;    
+    align-items: center;
+    color: whitesmoke;
+}
+
+footer {
+    padding: 20px;
+}
+
+.filtro {
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fButton {
+    height: 20px;
+    width: 15%;
+}
+
+img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 50px !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: thistle;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
