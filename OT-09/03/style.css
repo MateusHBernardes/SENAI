@@ -16,10 +16,9 @@ section {
 header {
     height: 10%;
     background-color: #121212;
-    text-align: center;
-    padding: 1px;
     justify-content: center;    
     align-items: center;
+    display: flex;
     color: whitesmoke;
 }
 
@@ -33,6 +32,13 @@ footer {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+select {
+    background-color:#121212 ;
+    color: antiquewhite;
+    border: none;
+    border-radius: 2px;
 }
 
 .fButton {
