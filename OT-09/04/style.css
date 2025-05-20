@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(59, 70, 80);
+}
+
+header {
+    display: flex;
+    background-color: #121212;
+    color:aliceblue;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: grid;
+}
+
+select {
+  border: none;
+  width: 100%;
+  background-color: #4b4a5a;
+  color: aliceblue;
+}
+
+fieldset {
+    border: none;
+    width: 100%;
+    padding: 0;
+}
+
+.element {
+    width: 100%;
+}
+
+.sidebar {
+    background-color:  #4b4a5a;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 10%);
+    width: 15%;
+    
+  }
+  
+  .area {
+    /* display: grid; */
+    width: 100%;
+    padding: 10%;
+    display: flex;
+
+  }
+  
+  .area:hover{
+    background-color: #696968;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
