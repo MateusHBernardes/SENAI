@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -14,18 +15,52 @@
         <h1>GRÁFICO</h1>
     </header>
 
-    <section>
+    <main>
         <fieldset class="sidebar">
-            <select class="area" name="sagas">
-                <option value="">GRÁFICOS</option>
-                <option value="harryPotter">BARRA</option>
-                <option value="senhorDosAnéis">PIZZA</option>
+            <select class="area" name="sagas" id="selectGraficos">
+                <option value="">Selecione o gráfico</option>
+                <option value="./index.html">GRÁFICOS</option>
+                <option value="./grafico1.html">BARRA</option>
+                <option value="./grafico2.html">PIZZA</option>
             </select>
         </fieldset>
-    </section>
+    
+        <section>
+    
+    
+            <div class="container">
+                
+                <div class="card">
+                    <h2>Gráficos</h2>
+                    <div class="conteudo">
+                        <p>Gráfico é a tentativa de se expressar visualmente dados ou valores numéricos, de maneiras diferentes, assim facilitando a sua compreensão.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswYFyszI12rNLPlayDqbX21zcVrgbqM4sjw&s" alt="graficos">
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <h2>BARRA</h2>
+                    <div class="conteudo">
+                        <p>O gráfico de barras é um gráfico com barras retangulares e comprimento proporcional aos valores que ele apresenta. </p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKIGtKQSN0IJEXWUgEYNdMbFLG_O4tVDp_4g&s" alt="graficos">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>PIZZA</h2>
+                    <div class="conteudo">
+                        <p>Os gráficos de pizza exibem os dados em uma visualização circular, com as seções (fatias da pizza) representando suas séries de dados.</p>
+                        <img src="https://www.jaspersoft.com/content/dam/jaspersoft/images/graphics/infographics/pie-chart-example.svg" alt="graficos">
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+    </main>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
