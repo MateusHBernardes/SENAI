@@ -20,8 +20,6 @@ header {
   justify-content: center;
 }
 
-
-
 .sidebar {
   background-color: #4b4a5a;
   display: flex;
@@ -56,12 +54,6 @@ section {
   gap: 20px;
   max-width: 100%;
 }
-
-
-
-
-
-
 
 select {
   width: 100%;
