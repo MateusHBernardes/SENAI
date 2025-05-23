@@ -10,10 +10,10 @@ html, body {
 
 header {
     height: 10vh;
-    background-color: #121212;
-    width: 100%;
-    display: flex;
+    width: 100vw;
     justify-content: end;
+    display: flex;
+    background-color: #121212;
     
 }
 
@@ -24,52 +24,13 @@ header {
 }
 
 main {
-    height: 100vh;
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: start;
-    padding: 20px;
-    padding-bottom: 15vh;
+    height: 100vh;
+    flex: 1;
+    
 }
-
-section {
-
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    width: 100%;
-    max-width: 600px;
-    justify-items: center;
-}
-
-.card {
-    padding: 10px;
-    background-color: #f7e56e;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
-}
-
-.card:hover {
-    background-color: #f7e56e;
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-.imgOptions {
-    width: 80%;
-    height: 80%;
-    border-radius: 10px;
-}
-
 
 footer {
     position: fixed;
@@ -85,7 +46,6 @@ footer {
     margin-top: auto;
     flex-direction:row;
     /* z-index: 1000; */
-
 }
 
 audio {

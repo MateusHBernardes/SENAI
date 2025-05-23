@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    height: 10vh;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #121212;
+    border-bottom: 1px solid #ccc;
+}
+
+.search {
+    /* height: 100%; */
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+.mainIcon {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.iconMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconArtista {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* ALL CARDS */
+.allCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background-color: #f7e56e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    background-color: #8a7c21;
+    cursor: pointer;
+}
+
+.logoArtista {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nameArtista {
+    font-size: 1.1rem;
+    flex: 1;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Ícone + nome da música */
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconMusic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.music {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Player de áudio */
+audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Ajustes para tela grande (computador) */
+@media (min-width: 768px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    .icon {
+        flex-direction: row;
+    }
+
+    audio {
+        width: 400px;
+    }
+}
