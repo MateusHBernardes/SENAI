@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas - Ferrugem</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/musicas.css">
+    <script defer src="../js.js"></script>
+    
+</head>
+<body>
+    <header>
+        <a href="../HTML/index.html"><img class="functionHeader" src="../logoApp.png" alt="Logo"></a>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Buscar música..." />
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div class="mainIcon">
+                <div class="iconMain">
+                    <img class="iconArtista" src="https://lh3.googleusercontent.com/26Z_Anet1uYGShLkzbLxpzIL00GDJOq58ETvVs0ANtUmDl7qEqObu4vm-uC8Q4velWgtBTKNwHzBHKA6=w544-h544-l90-rj" alt="Ferrugem">
+                    <h2>MÚSICAS</h2>
+                </div>
+            </div>
+        
+            <div class="allCards">
+                <div class="card">
+                    <img class="logoArtista" src="https://lh3.googleusercontent.com/26Z_Anet1uYGShLkzbLxpzIL00GDJOq58ETvVs0ANtUmDl7qEqObu4vm-uC8Q4velWgtBTKNwHzBHKA6=w544-h544-l90-rj" alt="Ferrugem">
+                    <a href="#" class="nameArtista" id="pirataTesouro">Pirata e Tesouro (Ao vivo)</a>
+                </div>
+                
+                <div class="card">
+                    <img class="logoArtista" src="https://lh3.googleusercontent.com/26Z_Anet1uYGShLkzbLxpzIL00GDJOq58ETvVs0ANtUmDl7qEqObu4vm-uC8Q4velWgtBTKNwHzBHKA6=w544-h544-l90-rj" alt="Ferrugem">
+                    <a href="#" class="nameArtista" id="minhaNamorada">Minha Namorada (Ao vivo)</a>
+                </div>
+                
+                <div class="card">
+                    <img class="logoArtista" src="https://lh3.googleusercontent.com/26Z_Anet1uYGShLkzbLxpzIL00GDJOq58ETvVs0ANtUmDl7qEqObu4vm-uC8Q4velWgtBTKNwHzBHKA6=w544-h544-l90-rj" alt="Ferrugem">
+                    <a href="#" class="nameArtista" id="sintoFalta">Sinto Sua Falta (Ao vivo)</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="icon">
+            <div class="icon1">
+                <img class="iconMusic" src="https://i.scdn.co/image/ab6761610000517455d58f5487c69d5fb149dd67" alt="Ferrugem">
+                <p class="music" id="current-song">Ferrugem</p>
+            </div>
+
+            <div class="icon2" id="music-player">
+                <audio controls id="audio-player" class="audio"></audio>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../musica.js"></script>
+</body>
+</html>

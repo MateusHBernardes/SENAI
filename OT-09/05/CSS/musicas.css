@@ -1,0 +1,72 @@
+
+/* MAIN */
+
+main {
+    margin-top: 15vh;
+}
+
+.mainIcon {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.iconMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconArtista {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* ALL CARDS */
+.allCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background-color: #f7e56e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    background-color: #8a7c21;
+    cursor: pointer;
+}
+
+.logoArtista {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+
+.nameArtista {
+    font-size: 1.1rem;
+    flex: 1;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+    
+}
