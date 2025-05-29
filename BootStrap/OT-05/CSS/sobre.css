@@ -1,5 +1,16 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Arial', sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 112px);
 }
 
 header {
@@ -34,3 +45,30 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+.imagem {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    z-index: 0;
+  }
+  
+  .imagem::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images8.alphacoders.com/130/1304291.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px); /* Ajuste o blur como desejar */
+    z-index: -1;
+  }
