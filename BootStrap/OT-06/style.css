@@ -1,17 +1,47 @@
-  body {
+  html, body {
       background-color: #f8f9fa;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      width: 100%;
+      margin: 0;
+      background-image: url('https://images3.alphacoders.com/137/thumb-1920-1372691.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
     }
 
+    main {
+    }
+    
     .login-container {
-      background-color: #fff;
+      background-color: #343a40;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
+
+    .login-container button{
+      background-color: black;
+      border: none;
+    }
+
+    .login-container button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .login-container a {
+      color: black;
+    }
+
+    .login-container h2 {
+      color: black;
+    }
+
+
 
     .login-title {
       margin-bottom: 20px;
