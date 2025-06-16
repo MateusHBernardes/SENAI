@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .product-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+  }
+
+  .card-img-top {
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .login-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+
+  .header-top {
+    position: relative;
+  }
+
+  .login-container {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }

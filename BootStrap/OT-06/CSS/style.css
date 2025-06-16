@@ -15,7 +15,11 @@
 
     main {
     }
-    
+
+    a {
+      text-decoration: none;
+      
+    }
     .login-container {
       background-color: #343a40;
       padding: 30px;
@@ -56,4 +60,9 @@
 
     .btn-primary {
       border-radius: 20px;
+    }
+
+    .loginButton {
+      color: white;
+     
     }
