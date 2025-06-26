@@ -28,3 +28,32 @@ for (let i = 0; i < animais.length; i++) {
     console.log(animais[i]);
 
 }
+
+console.log("")
+
+
+animais[1] = "Girafa";
+
+for (let i = 0; i < animais.length; i++) {
+
+    console.log(animais[i]);
+
+}
+
+console.log("")
+
+let frutas= ["Maçã", "Banana", "Laranja"];
+
+
+for (let i = 0; i < frutas.length; i++) {
+
+    console.log(frutas[i]);
+    
+}
+
+console.log("")
+
+
+let totalFrutas = frutas.length;
+
+console.log(totalFrutas);
