@@ -41,3 +41,24 @@ let ii = 0; while (ii < 100) {
     console.log(ii);
     ii++;
 }
+
+console.log("");
+console.log("5. Pulando uma iteração: Crie um loop for que imprima números de 0 a 20, mas pule a impressão do número 13.");
+console.log("");
+
+for(let i = 0; i < 20; i++){
+    if(i === 13){
+        continue;
+    }
+    
+    console.log(i);
+
+}
+console.log("");
+console.log("6. Iterando um Array: Crie um array de nomes e use um loop for...of para imprimir cada nome do array.");
+console.log("");
+
+let nomes = ["Mateus", "Maria", "Pedro"];
+for(let tripa of nomes){
+    console.log(tripa);
+}
