@@ -91,7 +91,7 @@ qualquer,
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-let nomeLivro1 = "1984";
+let nomeLivro1 = "1984";                                                          
 console.log(`O livro ${nomeLivro1} tem ${book(nomeLivro1).quantidadePaginas} páginas!`);
 
 /*
